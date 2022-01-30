@@ -8,7 +8,7 @@
 
 .header .firstpage{
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/#hero-cover.3.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/hero-cover3.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -34,4 +34,110 @@
 .navbar ul li a{
     text-decoration: none;
     color: #fff;
+}
+.navbar .navbutton > button{
+    cursor: pointer;
+    color: #fff;
+    border: none;
+}
+.navbar .navbutton .enroll{
+    background-color: #23a6f0;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.navbar .navbutton .login{
+    background-color: transparent;
+    font-size: 20px;
+}
+.hero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 35%;
+    z-index: 1;
+}
+.hero-text h2{
+font-size: 50px;
+font-weight: bolder;
+}
+.hero-text p{
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.hero-buttons > button{
+border-radius: 50px;
+padding: 15px 30px;
+color: #fff;
+font-weight: bolder;
+cursor: pointer;
+margin: 60px 10px 0;
+}
+
+.hero-buttons .get-quote{
+border: 2px solid #23a6f0;
+background-color: #23a6f0;
+}
+.hero-buttons .learn{
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+.goals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    font-family: cursive;
+}
+.goals .fal{
+    font-size: 3em;
+    padding: 10px;
+}
+
+.peace-mind, .set-life, .satisfaction{
+    border: solid 1px;
+    z-index: 2;
+    margin-top: -25%;
+    flex-basis: 20%;
+    text-align: left;
+    padding: 50px 10px 50px 40px;
+    flex-wrap: wrap;  
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgb(192, 188, 188); 
+}
+
+.peace-mind, .set-life, .satisfaction, h3{
+    font-size: 25px;
+    padding: 10px;
+    
+}
+.peace-mind, .set-life, .satisfaction, p{
+font-size: 15px;
+padding: 5px;
+
+}
+.satisfaction{
+    background-color: #23a6f0;
+    color: #fff;
+}
+.satisfaction, .fal{
+    color: #fff;
+}
+.peace-mind, .set-life{
+    background-color: #fff;
+}
+
+.background{
+    background-color: rgb(233, 231, 231);
+    height: 200px;
+}
+.secondsection{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    text-align: center;
 }
