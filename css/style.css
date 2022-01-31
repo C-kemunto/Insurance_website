@@ -107,7 +107,7 @@ background-color: #23a6f0;
     padding: 40px 10px 40px 40px;
     flex-wrap: wrap;  
     border: none;
-    box-shadow: 2px 2px 2px 2px rgb(192, 188, 188); 
+    box-shadow: 3px 3px 3px 3px rgb(211, 204, 204); 
 }
 
 .peace-mind, .set-life, .satisfaction, h3{
@@ -200,6 +200,7 @@ color: gray;
     justify-content: space-evenly;
     text-align: center;
     padding: 100px 0; 
+    display: flex;
 }
 .subscribe{
     margin: 150px;
@@ -226,11 +227,12 @@ color: gray;
     margin-top: 30px;
 }
 .subscribe button{
-background-color: rgb(5, 124, 163);
-padding: 10px;
+background-color: rgb(6, 147, 194);
+padding: 14px;
 color: #fff;
 font-size:medium;
 border-radius: 5px;
 margin-top: 30px;
 margin: 0%;
+margin-left: -5px;
 }
