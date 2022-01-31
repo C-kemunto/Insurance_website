@@ -189,9 +189,8 @@ color: gray;
 padding: 50px;
 color: gray;
 }
-.user1, .user2, .user3, .far{
-    color: gold;
-}
+
+
 .logos{
     justify-content: space-evenly;
     text-align: center;
