@@ -94,8 +94,8 @@ background-color: #23a6f0;
     font-family: cursive;
 }
 .goals .fal{
-    font-size: 3em;
-    padding: 10px;
+    font-size: 4em;
+    padding: 15px;
 }
 
 .peace-mind, .set-life, .satisfaction{
@@ -120,6 +120,7 @@ font-size: 15px;
 padding: 5px;
 
 }
+
 .satisfaction{
     background-color: #23a6f0;
     color: #fff;
@@ -127,6 +128,7 @@ padding: 5px;
 .satisfaction, .fal{
     color: #fff;
 }
+
 .peace-mind, .set-life{
     background-color: #fff;
 }
@@ -136,10 +138,22 @@ padding: 5px;
     height: 200px;
 }
 .secondsection{
+    gap: 100px;
+    padding: 150px 0;
     display: flex;
-    justify-content: space-between;
-    padding-top: 150px;
+    justify-content: center;
+    flex-direction: row;
     text-align: center;
+    flex-wrap: wrap;
+}
+.secondsection p{
+font-size: 12px;
+color: gray;
+}
+.secondsection h3{
+    color: rgb(41, 40, 40);
+    font-weight: 500;
+    font-size: 22px;
 }
 .industry{
     text-align: center;
