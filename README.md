@@ -1,14 +1,12 @@
 # Insurance_website
-<<<<<<< HEAD
 # Portfolio
 
 ##### By Kemunto Cindy
 ### It is a description of my Insurance template.
-=======
 
 ##### By Kemunto Cindy
 ### It is a template of my Insurance page.
->>>>>>> 936f8ec8c902a24440bd5ef78731078ef8208ccc
+
 
 
 ## Description
@@ -21,11 +19,10 @@
 
 * An access to the Internet
 
-<<<<<<< HEAD
-=======
+
 ### Installation Process
 
->>>>>>> 936f8ec8c902a24440bd5ef78731078ef8208ccc
+
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
 
@@ -58,8 +55,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 936f8ec8c902a24440bd5ef78731078ef8208ccc
