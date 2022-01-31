@@ -93,10 +93,6 @@ background-color: #23a6f0;
     column-gap: 50px;
     font-family: cursive;
 }
-.goals .fal{
-    font-size: 4em;
-    padding: 15px;
-}
 
 .peace-mind, .set-life, .satisfaction{
     border: solid 1px;
@@ -287,4 +283,29 @@ font-size: 30px;
     width: 200px;
     border: none;
     border-radius: 4px;
+}
+.branching{
+    background-color: rgba(1, 1, 36, 0.986);
+    height: 500px;
+}
+.fifthsection{
+    display: flex;
+    margin: 100px;
+    justify-content: space-between;
+}
+.branch{
+    color: #fff;
+    text-align: left;
+    font-family: cursive;
+    padding: 50px;
+}
+.branch p{
+    font-size: 10px;
+}
+.log-in{
+    display: flex;
+    margin-top: -400px;
+    background-color: #fff;
+    justify-content: center;
+    gap: 0;
 }
