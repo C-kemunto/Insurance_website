@@ -104,7 +104,7 @@ background-color: #23a6f0;
     margin-top: -25%;
     flex-basis: 20%;
     text-align: left;
-    padding: 50px 10px 50px 40px;
+    padding: 40px 10px 40px 40px;
     flex-wrap: wrap;  
     border: none;
     box-shadow: 2px 2px 2px 2px rgb(192, 188, 188); 
@@ -112,7 +112,7 @@ background-color: #23a6f0;
 
 .peace-mind, .set-life, .satisfaction, h3{
     font-size: 25px;
-    padding: 10px;
+    text-align: center;
     
 }
 .peace-mind, .set-life, .satisfaction, p{
@@ -197,5 +197,40 @@ color: gray;
     color: gold;
 }
 .logos{
-    
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 100px 0; 
+}
+.subscribe{
+    margin: 150px;
+    margin-top: -10px;
+}
+.signage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3px;
+    padding: 20px;
+    background: linear-gradient(to right, #05078f, rgb(192, 7, 106));
+}
+.subscribe p{
+    color: #fff;
+    font-size:xx-large;
+}
+.subscribe input{
+    border: none;
+    width: 350px;
+    font-size: medium;
+    padding-left: 10px;
+    height: 50px;
+    margin-top: 30px;
+}
+.subscribe button{
+background-color: rgb(5, 124, 163);
+padding: 10px;
+color: #fff;
+font-size:medium;
+border-radius: 5px;
+margin-top: 30px;
+margin: 0%;
 }
