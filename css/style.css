@@ -1,3 +1,10 @@
+@media only screen and (min-width: 480px){
+    body{
+        font-size: 20px;
+        color: #23a6f0;
+        background-color: #fff;
+    }
+}
 *{
     padding: 0;
     margin: 0;
@@ -302,6 +309,9 @@ font-size: 30px;
 .branch p{
     font-size: 12px;
 }
+.lastsection{
+    color: rgb(51, 50, 50);
+}
 
 .sectionk{
     align-items: center;
@@ -359,6 +369,9 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;  
+}
+.container h4{
+    color: rgb(51, 50, 50)
 }
 .company-info, .legal, .features, .resources, .get-touch{
     margin: 30px;
