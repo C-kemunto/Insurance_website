@@ -261,7 +261,6 @@ font-size: 30px;
 .fal{
     margin: 3px;
     font-size: 25px;
-    background-color: green;
     border-radius: 100%;
     border: none;
 }
@@ -285,26 +284,104 @@ font-size: 30px;
 }
 .branching{
     background-color: rgba(1, 1, 36, 0.986);
-    height: 500px;
+    padding: 100px 0 400px;
+    z-index: 1;
 }
 .fifthsection{
     display: flex;
-    margin: 100px;
-    justify-content: space-between;
+    gap: 0;
+    justify-content: space-evenly;
 }
 .branch{
     color: #fff;
     text-align: left;
     font-family: cursive;
     padding: 50px;
+    flex-basis: 46em;
 }
 .branch p{
-    font-size: 10px;
+    font-size: 12px;
+}
+
+.sectionk{
+    align-items: center;
 }
 .log-in{
     display: flex;
-    margin-top: -400px;
     background-color: #fff;
-    justify-content: center;
     gap: 0;
+    border-radius: 3px;
+    width: 50%;
+    margin: -300px 350px;
+    
+}
+.new-member{
+    margin: 40px;
+}
+input, [type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin: 10px 0;
+    color: rgb(87, 84, 84);
+}
+select{
+    background-color: rgb(243, 240, 240);
+    color: rgb(163, 158, 158);
+    border-radius: 3px;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+}
+button{
+    text-align: center;
+    text-decoration: none;
+    background-color: #23a6f0;
+    padding: 10px 30px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    margin: 10px 0;
+}
+.consultation{
+    display: flex;
+    margin-top: 400px;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+.container{
+    background-color: rgba(226, 221, 221, 0.404);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.company-info, .legal, .features, .resources, .get-touch{
+    margin: 30px;
+}
+
+.container ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.container ul a{
+    color: gray;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    padding: 8px 10px;
+
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.figma p{
+    font-size: 12px;
 }
