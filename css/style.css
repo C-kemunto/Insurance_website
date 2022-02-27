@@ -14,7 +14,7 @@
 }
 
 .header .firstpage{
-    height: 100vh;
+    height: 150vh;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/hero-cover3.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,19 +23,19 @@
     background-attachment: scroll;
 }
 .firstpage{
-    padding: 30px;
+    padding: 20px;
 }
 .header .navbar{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 0px;
     color: #fff;
 }
 .navbar ul li {
     display: inline;
-    font-size: 20px;
-    padding: 0 20px;
+    font-size: 17px;
+    padding: 0 15px;
     
 }
 .navbar ul li a{
@@ -46,7 +46,8 @@
     cursor: pointer;
     color: #fff;
     border: none;
-    width: 100%;
+    width: 90%;
+    /* font-size: 10px; */
 }
 .enroll i{
     margin-left: 20px;
@@ -64,7 +65,7 @@
 }
 .navbar .navbutton .login{
     background-color: transparent;
-    font-size: 20px;
+    font-size: 18px;
 }
 .hero{
     position: absolute;
@@ -77,6 +78,7 @@
     z-index: 1;
 }
 .hero-text h2{
+    /* padding-top: -20px; */
 font-size: 50px;
 font-weight: bolder;
 }
@@ -87,13 +89,13 @@ font-weight: bolder;
 }
 
 .hero-buttons > .get-quote, .learn{
-border-radius: 50px;
+border-radius: 30px;
 padding: 15px 20px;
 color: #fff;
 font-weight: bolder;
 cursor: pointer;
 margin: 60px 10px 0;
-width: 30%;
+width: 40%;
 }
 
 .hero-buttons .get-quote{
@@ -115,7 +117,7 @@ background-color: #23a6f0;
 .peace-mind, .set-life, .satisfaction{
     border: solid 1px;
     z-index: 2;
-    margin-top: -25%;
+    margin-top: -30%;
     flex-basis: 20%;
     text-align: left;
     padding: 40px 10px 40px 40px;
@@ -125,12 +127,12 @@ background-color: #23a6f0;
 }
 
 .peace-mind, .set-life, .satisfaction, h3{
-    font-size: 25px;
+    /* font-size: 90px; */
     text-align: center;
     
 }
 .peace-mind, .set-life, .satisfaction, p{
-font-size: 15px;
+font-size: 12px;
 padding: 5px;
 
 }
@@ -152,8 +154,9 @@ padding: 5px;
     height: 200px;
 }
 .secondsection{
-    gap: 100px;
-    padding: 150px 0;
+    height: 60vh;
+    gap: 60px;
+    padding: 50px 0;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -170,6 +173,7 @@ color: gray;
     font-size: 22px;
 }
 .comments{
+    height: 190vh;
     background-color: rgba(226, 221, 221, 0.404);
 }
 .industry{
@@ -178,10 +182,11 @@ color: gray;
     padding: 70px, 50px;
     flex-direction: row;
     text-align: center;
-    margin-bottom: 130px;
+    margin-bottom: 120px;
     
 }
 .industry h3{
+    padding-top: 20px;
     font-size: 40px;
     color: rgb(31, 25, 25);
 }
@@ -190,6 +195,9 @@ color: gray;
     color: gray;
 }
 .users{
+    margin-top: -80px;
+    margin-right: 20px;
+    margin-left: 30px;
     display: flex; 
     gap: 50px;
     justify-content: space-around;
@@ -210,13 +218,14 @@ color: gray;
 
 
 .logos{
+    /* height: 40vh; */
     justify-content: space-evenly;
     text-align: center;
-    padding: 100px 0; 
+    padding: 90px 0; 
     display: flex;
 }
 .subscribe{
-    margin: 150px;
+    margin: 100px;
     margin-top: -10px;
 }
 .signage{
@@ -224,7 +233,7 @@ color: gray;
     align-items: center;
     justify-content: space-between;
     border-radius: 3px;
-    padding: 20px;
+    /* padding: 10px; */
     background: linear-gradient(to right, #05078f, rgb(192, 7, 106));
 }
 .subscribe p{
@@ -254,6 +263,7 @@ width: 30%;
 border: none;
 }
 .free{
+    margin-top: -80px;
     justify-content: center;
     text-align: center;
     display: flex;
@@ -305,8 +315,10 @@ font-size: 30px;
     border-radius: 4px;
 }
 .branching{
+    padding-top: 20px;
+    height: 100vh;
     background-color: rgba(1, 1, 36, 0.986);
-    padding: 100px 0 400px;
+    /* padding: 100px 0 400px; */
     z-index: 1;
 }
 .fifthsection{
@@ -374,10 +386,13 @@ button{
 }
 .consultation{
     display: flex;
-    margin-top: 400px;
+    margin-top: 300px;
     justify-content: space-between;
-    padding: 40px;
+    padding: 20px;
 
+}
+.footer{
+    height: 10vh;
 }
 .container{
     background-color: rgba(226, 221, 221, 0.404);
@@ -386,10 +401,11 @@ button{
     align-items: center;  
 }
 .container h4{
+    font-size: 20px;
     color: rgb(51, 50, 50)
 }
 .company-info, .legal, .features, .resources, .get-touch{
-    margin: 30px;
+    margin: 20px;
 }
 
 .container ul{
@@ -401,7 +417,7 @@ button{
     color: gray;
     text-decoration: none;
     display: block;
-    font-size: 14px;
+    font-size: 12px;
     padding: 8px 10px;
 
 }
@@ -409,10 +425,18 @@ button{
     margin-right: 10px;
 }
 .copyright{
+    /* background-color: rgba(226, 221, 221, 0.404); */
+    /* height: 5px; */
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+    /* margin: 5px; */
+    /* padding: 0px; */
 }
 .figma p{
     font-size: 12px;
+    /* padding-bottom: -20px; */
+}
+.social i{
+    margin: 5px;
+    margin-top: 10px;
 }
